@@ -1,0 +1,93 @@
+/*
+Colors used:
+Primary Color (Yellow): #FFF045;
+Primary Color (White): #FFFFFF;
+Secondary Color (Blue): #007FFF;
+Secondary Color (Black): #191812;
+Secondary Color (Gray): #F3F3F3;
+*/
+
+body {
+  background-color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 500; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #191812;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+  font-family: 'Zilla Slab', serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 2.75em;
+}
+
+h2 {
+  font-size: 2.25em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+
+a {
+  color: #007FFF;
+  text-decoration: none; /* No underlining */
+}
+
+a:visited { /* visited link */
+  color: #007FFF;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  background-color: transparent;
+  color: #191812;
+  font-family: 'Zilla Slab', serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+  padding: 10px;
+  border: 2px solid #191812; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  background-color: #FFF045;
+  color: #191812;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: #F3F3F3;
+  color: #191812;
+  border: 5px solid #F3F3F3;
+}
+
+.button.contact:hover {
+  background-color: #191812;
+  color: #ffffff;
+  border: 5px solid #191812;
+}
