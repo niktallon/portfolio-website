@@ -61,7 +61,8 @@ a:active {
   text-decoration: underline;
 }
 
-.button {
+.button,
+.button:visited {
   display: inline-block;
   background-color: transparent;
   color: #191812;
