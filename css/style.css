@@ -165,6 +165,15 @@ main {
   width: 6%;
 }
 
+.verticalimage {
+  margin: 30px 0px;
+  max-width: 150px;
+}
+
+.projectimage {
+  margin: 30px 0px;
+}
+
 a {
   color: #007FFF;
   text-decoration: none;

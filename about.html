@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <title>About Nicole Tallon</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Nicole Tallon">
-    <meta name="description" content="Samples of my work in user experience design">
+  <title>About</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Nicole Tallon">
+  <meta name="description" content="Samples of my work in user experience design">
   <!--css-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -18,32 +18,34 @@
 
 <body id="about">
   <!-- header -->
-  <header id="header">
-    <div>
+  <header>
+    <div class="container">
       <a href="index.html" target="_self">
-        <img src="img/tallon-logo.svg" alt="Nicole Tallon logo"></a>
+        <img src="img/tallon-logo.svg" alt="Nicole Tallon logo" class="logo">
+      </a>
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
+
   <main>
     <div><!-- Orange (section) -->
-        <div><!-- Yellow (container) -->
+        <div class="container"><!-- Yellow (container) -->
             <h1>About</h1>
         </div><!-- Close Yellow (container) -->
     </div><!-- Close Orange (section) -->
 
     <div><!-- Orange (section 2) -->
-        <div><!-- Yellow (container) -->
+        <div class="container"><!-- Yellow (container) -->
             <picture>
               <source srcset="img/about/headshot-1x.jpg" media="(max-width:767px)">
               <img src="img/about/headshot-2x.jpg" alt="Chomp Project">
             </picture>
-            <div><!-- Green (row) -->
+            <div class="row"><!-- Green (row) -->
                 <div><!-- Teal (column 1) -->
                     <h2>Bio</h2>
                     <p>I’ve been playing music since I was 11 years old. Classical saxophone to be exact. My entire formal education was based around classical music study, composition, and ensemble playing. While in grad school, I started working in audio engineering and realized we needed a way to stream our concerts online, and get people to listen to them. That was the moment my music world collided with digital design and marketing strategy – quite the harmonic convergence.</p>
@@ -82,16 +84,19 @@
     </div><!-- Close Orange (section 2) -->
   </main>
 
-  <!-- footer  -->
+  <!-- Footer  -->
   <footer id="contact">
-    <div>
-      <h2>Let's Work Together</h2>
-      <p>Do you like my work and want to discuss opportunities? Please get in touch via my email below.</p>
+    <div class="container">
+      <div>
+        <img src="img/tallon-logo.svg" alt="Nicole Tallon logo" class="logo">
+      </div>
+      <h3>Let's Work Together</h3>
       <div>
         <a href="mailto:nicole@nicoletallon.com" class="button contact">nicole@nicoletallon.com</a>
       </div>
 
-      <div> <!--Social Media Layout and Placeholders-->
+<!--Social Media -->
+      <div class="social">
         <ul>
           <li>
               <a href="https://twitter.com/NikTallon" target="_blank">
@@ -107,6 +112,7 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>
