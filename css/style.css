@@ -18,10 +18,10 @@ img {
 body {
   background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
-  font-size: 16px;
-  /* Sets the font size to 16px */
+  font-size: 18px;
+  /* Sets the font size to 18px */
   font-weight: 500;
-  /* Sets the font weight to 300 */
+  /* Sets the font weight to 500 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
   color: #191812;
@@ -130,11 +130,8 @@ main {
 }
 
 .row {
-  margin: 25px 0;
-  /* 25px top and bottom, 0 left and right */
+  margin: 35px 0;
 }
-
-
 
 
 .homeimage {
@@ -185,6 +182,7 @@ main {
   margin: 50px auto;
 }
 
+
 a {
   color: #007FFF;
   text-decoration: none;
@@ -210,12 +208,12 @@ a:active {
   color: #191812;
   font-family: 'Zilla Slab', serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1.3px;
   padding: 10px;
-  border: 2px solid #191812;
-  /* width of the border, type, color */
-  transition: 0.2s opacity;
+  border: 2px solid #191812; /* width of the border, type, color */
+  transition-property: background-color;
+  transition-duration: 1s;
 }
 
 .button:hover {
@@ -226,14 +224,51 @@ a:active {
 
 .button.contact {
   background-color: #F3F3F3;
+  border: none;
+  padding: 20px;
   color: #191812;
-  border: 5px solid #F3F3F3;
 }
 
 .button.contact:hover {
   background-color: #191812;
   color: #ffffff;
-  border: 5px solid #191812;
+}
+
+/*CSS Animation*/
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation-duration: 100s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 100s cloud-move-reverse infinite alternate linear;
 }
 
 /* ==============================
@@ -285,11 +320,9 @@ Medium devices (640px and larger)
 }
 
 #about h3 {
-  margin-top: 50;
+  margin-top: 0;
 }
 
-
-}
 
 /* ==============================
 Large devices (1024px or larger)
@@ -297,6 +330,34 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
 }
 
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#work.col-lg-7 {
+  width: 60%;
+  float: left;
+  padding-right: 15px;
+  padding-left: 0;
+}
+
+#work.col-lg-5 {
+  width: 40%;
+  float: right;
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+#project h2 {
+  text-align: left;
+  font-size: 1em;
+}
+
+.headshot {
+  max-width: 25%;
+}
 
 /* ==============================
 X-large devices (1440px or larger)
