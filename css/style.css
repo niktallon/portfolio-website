@@ -15,6 +15,7 @@ img {
   width: 100%;
 }
 
+
 body {
   background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
@@ -110,7 +111,7 @@ nav>ul>li>a:active {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 15px;
   font-size: 20px;
   padding-right: 0
 }
@@ -189,7 +190,8 @@ main {
 }
 
 .socialicon {
-    max-width: 50px;
+  margin: 30px 0px;
+  max-width: 25px;
 }
 
 .social>ul {
@@ -201,8 +203,8 @@ main {
 .social>ul>li {
   display: inline-block;
   padding: 30px 8px;
-  width: 6%;
 }
+
 
 .verticalimage {
   margin: 30px 0px;
@@ -342,13 +344,22 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
+  .navtoggle.responsive nav {
+    padding: 0;
+  }
+
+  .navtoggle.responsive li  {
+    padding: 0;
+    border-top: 0px solid rgba(25,24,18,.1);
   }
 
   .navtoggle li:last-child {
   display: none;
-}
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
 
   main {
     padding-top: 5px;
