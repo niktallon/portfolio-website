@@ -47,7 +47,7 @@
 
     <div><!-- Orange (section 2) -->
       <div class="container"><!-- Yellow (container) -->
-          <h2>💼  AT A GLANCE</h2>
+          <h2>💼 At a Glance</h2>
           <ul>
             <li>Client or Primary Stakeholder: Career Foundry Project</li>
             <li>Timeframe: Fall 2020</li>
@@ -60,189 +60,192 @@
               </ul>
             </li>
           </ul>
-          <h2>🏗  PROJECT</h2>
+          <h2>🏗 Project Context</h2>
             <h3>Project Overview</h3>
-            <p>To allow people with specific nutritional needs to find and prepare recipes that are relevant to their lifestyle.</p>
+              <p>To allow people with specific nutritional needs to find and prepare recipes that are relevant to their lifestyle.</p>
             <h3>Minimum Viable Product (MVP)</h3>
-            <p>The objective for this MVP is to gain validation from target users that such an app will be used to prepare quick meal that meets their nutrition goals, and find it very easy to follow the recipes</p>
+              <p>The objective for this MVP is to gain validation from target users that such an app will be used to prepare quick meal that meets their nutrition goals, and find it very easy to follow the recipes</p>
             <h4>Hypotheses</h4>
-            <p>We believe that providing a large variety of quick recipes for users who have a hard schedule and little time to cook, will result in users finding something suitable for their needs.</p>
+              <p>We believe that providing a large variety of quick recipes for users who have a hard schedule and little time to cook, will result in users finding something suitable for their needs.</p>
             <h4>Success Metrics</h4>
+              <ul>
+                <li>Primary Success Metric: % of returning users </li>
+              </ul>
+              <h5>Supporting metrics:</h5>
+                <ul>
+                  <li>% Increase in total weekly web visits</li>
+                  <li>Usability of the filter tools</li>
+                  <li>Style guide - Logo, color, typography</li>
+                  <li>Reviews and feedback on recipes within the app</li>
+                </ul>
+          <h2>🔬 Discovery</h2>
+              <h3>Jobs To Be Done + Feature Requirements</h3>
+                <p>#1 - When I’m in a time crunch and searching for a recipe,  I want to see the total time needed for each one, so I can quickly make a selection.<p>
+                <p>Feature Requirements</p>
+                  <ul>
+                    <li>Display total prep/cooking time</li>
+                    <li>Browse recipe function</li>
+                    <li>Sort by time</li>
+                  </ul>
+                <p> #2 - When I’m planning my workouts and meals for the week, I want to know the macronutrient totals for the recipe while browsing, so I can assess if the recipe fits my nutrition goals.</p>
+                <p>Feature Requirements</p>
+                  <ul>
+                    <li>Macronutrient totals for each recipe</li>
+                    <li>Recipe detail page</li>
+                    <li>Ability to sort/filter recipes by macronutrients</li>
+                  </ul>
+                <p>#3 - When I’m following a recipe, I want to see a photo for each step, so I can match my food to the photo.
+                <p>
+                <p>Feature Requirements</p>
+                  <ul>
+                    <li>Search function</li>
+                    <li>Filter bar</li>
+                  </ul>
+                <h3>User Stories + User Flows</h3>
+                <p>User Story 1 + User Flow
+                  <br>When​ I’m following a recipe,​ I want to​ have simple and clear instructions, ​so I can​ follow along easily.<br>
+                  <br>Task Analysis
+                  <br>Entry point: Home screen
+                  <ol>
+                    <li>Home screen</li>
+                    <li>Search for recipe in database</li>
+                    <li>Select recipe and land on page</li>
+                    <li>Follow each step in recipe</li>
+                  </ol>
+                Success Criteria: User able to follow the recipe to the end (With clear steps)
+                  <br>
+
+                <picture>
+                  <source srcset="img/chomp/hand-drawn-user-flow-1-1x.png" media="(max-width:767px)">
+                  <img src="img/chomp/hand-drawn-user-flow-1-2x.png" class="projectimage" alt="user flow 1">
+                </picture>
+                <br>
+                <picture>
+                  <source srcset="img/chomp/user-diagram-1-1x.png" media="(max-width:767px)">
+                  <img src="img/chomp/user-diagram-1-2x.png" class="verticalimage" alt="user diagram 1">
+                </picture>
+                </p>
+
+              <p>User Story 2 + User Flow
+                <br>When​ I’m planning to prepare a recipe,​ I want to​ easily manipulate the serving size, ​so I can​ assess if it meets my nutritional needs.<br>
+                <br>Task Analysis
+                <br>Entry point: Home screen
+              <ol>
+                <li>Home screen</li>
+                <li>Find recipe in database</li>
+                <li>Select recipe</li>
+                <li>Input the # of people</li>
+              </ol>
+              Success Criteria: Have the necessary nutrition information and measurements of ingredients
+
+              <picture>
+                <source srcset="img/chomp/hand-drawn-user-flow-2-1x.png" media="(max-width:767px)">
+                <img src="img/chomp/hand-drawn-user-flow-2-2x.png" class="projectimage" alt="user flow 2">
+              </picture>
+              <br>
+              <picture>
+                <source srcset="img/chomp/user-diagram-2-1x.png" media="(max-width:767px)">
+                <img src="img/chomp/user-diagram-2-2x.png" class="verticalimage" alt="user diagram 2">
+              </picture>
+
+              <p>User Story 3 + User Flow
+                <br>When​ searching for recipes,​ I want to​ only see ones that match my needs, so I can​ know if I can make it.<br>
+                <br>Task Analysis
+                <br>Entry point: Home screen
+                <br>Existing User
+              <ol>
+                <li>Home</li>
+                <li>Log in</li>
+                <li>Go to profile settings</li>
+                <li>Go back to home screen</li>
+                <li>Browse recipes (profile settings will determine what recipes display)</li>
+              </ol>
+              New User
+              <ol>
+                <li>Home</li>
+                <li>Open recipe filters</li>
+                <li>Browse recipes</li>
+                <li>(Optional) Create account to save browsing settings</li>
+                <li>Browse recipes (profile settings will determine what recipes display)</li>
+              </ol>
+              Success Criteria: Browse recipes that meet dietary needs
+
+              <picture>
+                <source srcset="img/chomp/hand-drawn-user-flow-3-1x.png" media="(max-width:767px)">
+                <img src="img/chomp/hand-drawn-user-flow-3-2x.png" class="projectimage" alt="user flow 3">
+              </picture>
+              <br>
+              <picture>
+                <source srcset="img/chomp/user-diagram-3-1x.png" media="(max-width:767px)">
+                <img src="img/chomp/user-diagram-3-2x.png" class="projectimage" alt="user diagram 3">
+              </picture>
+
+              <h3>User Flow Diagram</h3>
+              <picture>
+                <source srcset="img/chomp/user-flow-diagram-1x.png" media="(max-width:767px)">
+                <img src="img/chomp/user-flow-diagram-2x.png" class="fullwidthimage" alt="user flow diagram">
+              </picture>
+
+              <h3>Personas</h3>
+              <picture>
+                <source srcset="img/chomp/persona-fiona-1x.png" media="(max-width:767px)">
+                <img src="img/chomp/persona-fiona-2x.png" class="fullwidthimage" alt="persona 1">
+              </picture>
+              <br>
+              <picture>
+                <source srcset="img/chomp/persona-inez-1x.png" media="(max-width:767px)">
+                <img src="img/chomp/persona-inez-2x.png" class="fullwidthimage" alt="persona 2">
+              </picture>
+              <br>
+              <picture>
+                <source srcset="img/chomp/persona-maya-1x.png" media="(max-width:767px)">
+                <img src="img/chomp/persona-maya-2x.png" class="fullwidthimage" alt="persona 3">
+              </picture>
+
+          <h2>📝 User Testing + Results</h2>
+            <p>I conducted interviews with 4 participants</p>
+            <h3>Research Objective</h3>
+            <p>Learn where a recipe platform geared towards weekly meal planning and nutrition could meet a need.</p>
+            <p>Questions</p>
             <ul>
-              <li>Primary Success Metric: % of returning users </li>
+              <li>When do you use recipes?</li>
+              <li>How do you use websites or apps to help you with recipes?</li>
+              <li>What are your favorite features of any existing apps you use to help with recipes? If you don't use apps, why not and would there be any features that would make you start?</li>
+              <li>What don’t you like about any tools you currently use? Why?</li>
+              <li>What role does nutrition play in selecting recipes?</li>
+              <li>Do you use recipes more for yourself or group meals? or both?</li>
+              <li>To what percent do you feel you adhere to the recipe instructions?</li>
             </ul>
-            <h5>Supporting metrics:</h5>
+            <h3>User Research Results</h3>
+            <p>Patterns that emerged</p>
+              <ul>
+                <li>Performing a Google search for a specific dish is the go-to action</li>
+                <li>All participants do not invest much time cooking, especially due to the lack of time.</li>
+                <li>Allrecipes, pinterest and bon appetite came up a lot</li>
+                <li>Each person used recipes at a different step in the process, a clear pattern did not emerge</li>
+                <li>Google and social media covered a lot of needs vs a specific website or app</li>
+              </ul>
+            <p>Noteworthy quote(s)</p>
+              <ul>
+                <li>“I’ll google a meal concept that i know will garner a lot of options in a particular field 'Easy breakfast recipes,'Sheet pan recipes'”</li>
+                <li>"I usually skip the step by step directions, I just look at the ingredients"</li>
+                <li>"It would be interesting to speak to the app telling it to read a recipe and/or pause it. As I usually use a tablet to follow the recipe while cooking, but it is uncomfortable scrolling the pictures, because I usually have dirty hands.”
+                </li>
+                <li>“It would be nice to browse based on my diet.”</li>
+              </ul>
+
+            <p>Frustrations mentioned</p>
             <ul>
-              <li>% Increase in total weekly web visits</li>
-              <li>Usability of the filter tools</li>
-              <li>Style guide - Logo, color, typography</li>
-              <li>Reviews and feedback on recipes within the app</li>
+              <li>The “blog like” content before the recipes started frustrated all participants.</li>
+              <li>Dirty hands while using a recipe, needing to touch phone.</li>
             </ul>
-          <h4>Jobs To Be Done + Feature Requirements</h4>
-          <p>#1 - When I’m in a time crunch and searching for a recipe,  I want to see the total time needed for each one, so I can quickly make a selection.
-          <p>
-          <p>Feature Requirements</p>
-          <ul>
-            <li>Display total prep/cooking time</li>
-            <li>Browse recipe function</li>
-            <li>Sort by time</li>
-          </ul>
-          <p> #2 - When I’m planning my workouts and meals for the week, I want to know the macronutrient totals for the recipe while browsing, so I can assess if the recipe fits my nutrition goals.</p>
-          <p>Feature Requirements</p>
-          <ul>
-            <li>Macronutrient totals for each recipe</li>
-            <li>Recipe detail page</li>
-            <li>Ability to sort/filter recipes by macronutrients</li>
-          </ul>
-          <p>#3 - When I’m following a recipe, I want to see a photo for each step, so I can match my food to the photo.
-          <p>
-          <p>Feature Requirements</p>
-          <ul>
-            <li>Search function</li>
-            <li>Filter bar</li>
-          </ul>
-          <h2>🔬 USER RESEARCH</h2>
-          <h3>Research Method </h3>
-          <p>I conducted interviews with 4 participants</p>
-          <h3>Research Objective</h3>
-          <p>Learn where a recipe platform geared towards weekly meal planning and nutrition could meet a need.</p>
-          <p>Questions</p>
-          <ul>
-            <li>When do you use recipes?</li>
-            <li>How do you use websites or apps to help you with recipes?</li>
-            <li>What are your favorite features of any existing apps you use to help with recipes? If you don't use apps, why not and would there be any features that would make you start?</li>
-            <li>What don’t you like about any tools you currently use? Why?</li>
-            <li>What role does nutrition play in selecting recipes?</li>
-            <li>Do you use recipes more for yourself or group meals? or both?</li>
-            <li>To what percent do you feel you adhere to the recipe instructions?</li>
-          </ul>
-          <h3>User Research Results</h3>
-          <p>Patterns that emerged</p>
+
+            <p>Needs or goals the participants mentioned</p>
             <ul>
-              <li>Performing a Google search for a specific dish is the go-to action</li>
-              <li>All participants do not invest much time cooking, especially due to the lack of time.</li>
-              <li>Allrecipes, pinterest and bon appetite came up a lot</li>
-              <li>Each person used recipes at a different step in the process, a clear pattern did not emerge</li>
-              <li>Google and social media covered a lot of needs vs a specific website or app</li>
-            </ul>
-          <p>Noteworthy quote(s)</p>
-            <ul>
-              <li>“I’ll google a meal concept that i know will garner a lot of options in a particular field 'Easy breakfast recipes,'Sheet pan recipes'”</li>
-              <li>"I usually skip the step by step directions, I just look at the ingredients"</li>
-              <li>"It would be interesting to speak to the app telling it to read a recipe and/or pause it. As I usually use a tablet to follow the recipe while cooking, but it is uncomfortable scrolling the pictures, because I usually have dirty hands.”
-              </li>
-              <li>“It would be nice to browse based on my diet.”</li>
+              <li>Can't easily search by ingredients across many sources.</li>
+              <li>They need step-by-step pictures that follow the recipe text. They also like to see videos of the recipes, in this way they don't have to touch the phone with they hands while cooking.</li>
             </ul>
 
-          <p>Frustrations mentioned</p>
-          <ul>
-            <li>The “blog like” content before the recipes started frustrated all participants.</li>
-            <li>Dirty hands while using a recipe, needing to touch phone.</li>
-          </ul>
-
-          <p>Needs or goals the participants mentioned</p>
-          <ul>
-            <li>Can't easily search by ingredients across many sources.</li>
-            <li>They need step-by-step pictures that follow the recipe text. They also like to see videos of the recipes, in this way they don't have to touch the phone with they hands while cooking.</li>
-          </ul>
-          <h3>User Stories + User Flows</h3>
-          <p>User Story 1 + User Flow
-            <br>When​ I’m following a recipe,​ I want to​ have simple and clear instructions, ​so I can​ follow along easily.<br>
-            <br>Task Analysis
-            <br>Entry point: Home screen
-          <ol>
-            <li>Home screen</li>
-            <li>Search for recipe in database</li>
-            <li>Select recipe and land on page</li>
-            <li>Follow each step in recipe</li>
-          </ol>
-          Success Criteria: User able to follow the recipe to the end (With clear steps)
-            <br>
-          <picture>
-            <source srcset="img/chomp/hand-drawn-user-flow-1-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/hand-drawn-user-flow-1-2x.png" class="projectimage" alt="user flow 1">
-          </picture>
-          <br>
-          <picture>
-            <source srcset="img/chomp/user-diagram-1-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/user-diagram-1-2x.png" class="verticalimage" alt="user diagram 1">
-          </picture>
-
-          <p>User Story 2 + User Flow
-            <br>When​ I’m planning to prepare a recipe,​ I want to​ easily manipulate the serving size, ​so I can​ assess if it meets my nutritional needs.<br>
-            <br>Task Analysis
-            <br>Entry point: Home screen
-          <ol>
-            <li>Home screen</li>
-            <li>Find recipe in database</li>
-            <li>Select recipe</li>
-            <li>Input the # of people</li>
-          </ol>
-          Success Criteria: Have the necessary nutrition information and measurements of ingredients
-
-          <picture>
-            <source srcset="img/chomp/hand-drawn-user-flow-2-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/hand-drawn-user-flow-2-2x.png" class="projectimage" alt="user flow 2">
-          </picture>
-          <br>
-          <picture>
-            <source srcset="img/chomp/user-diagram-2-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/user-diagram-2-2x.png" class="verticalimage" alt="user diagram 2">
-          </picture>
-
-          <p>User Story 3 + User Flow
-            <br>When​ searching for recipes,​ I want to​ only see ones that match my needs, so I can​ know if I can make it.<br>
-            <br>Task Analysis
-            <br>Entry point: Home screen
-            <br>Existing User
-          <ol>
-            <li>Home</li>
-            <li>Log in</li>
-            <li>Go to profile settings</li>
-            <li>Go back to home screen</li>
-            <li>Browse recipes (profile settings will determine what recipes display)</li>
-          </ol>
-          New User
-          <ol>
-            <li>Home</li>
-            <li>Open recipe filters</li>
-            <li>Browse recipes</li>
-            <li>(Optional) Create account to save browsing settings</li>
-            <li>Browse recipes (profile settings will determine what recipes display)</li>
-          </ol>
-          Success Criteria: Browse recipes that meet dietary needs
-
-          <picture>
-            <source srcset="img/chomp/hand-drawn-user-flow-3-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/hand-drawn-user-flow-3-2x.png" class="projectimage" alt="user flow 3">
-          </picture>
-          <br>
-          <picture>
-            <source srcset="img/chomp/user-diagram-3-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/user-diagram-3-2x.png" class="projectimage" alt="user diagram 3">
-          </picture>
-
-          <h3>User Flow Diagram</h3>
-          <picture>
-            <source srcset="img/chomp/user-flow-diagram-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/user-flow-diagram-2x.png" class="fullwidthimage" alt="user flow diagram">
-          </picture>
-
-          <h3>Personas</h3>
-          <picture>
-            <source srcset="img/chomp/persona-fiona-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/persona-fiona-2x.png" class="fullwidthimage" alt="persona 1">
-          </picture>
-          <br>
-          <picture>
-            <source srcset="img/chomp/persona-inez-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/persona-inez-2x.png" class="fullwidthimage" alt="persona 2">
-          </picture>
-          <br>
-          <picture>
-            <source srcset="img/chomp/persona-maya-1x.png" media="(max-width:767px)">
-            <img src="img/chomp/persona-maya-2x.png" class="fullwidthimage" alt="persona 3">
-          </picture>
 
           <h2>🎨 DESIGNS</h2>
           <h3>Low/Mid Fidelity Wireframes</h3>
@@ -272,8 +275,10 @@
               <img src="img/chomp/high-fidelity-chomp-2-2x.jpg" class="projectimage" alt="chomp high fidelity 1">
             </picture>
 
-          <h2> 🏙 TAKEAWAYS</h2>
-          <p>Blurb with takeaways</p>
+          <h2>💡 Learnings + Reflections</h2>
+            <p>This project was fun because food is a vastly deep subject and people are generally excited to talk about it. It was challenging to cooneieve of a platform that caters to all different nutrional needs, cultures, and varying lifestyles.
+              <br><br>
+            On the next iteration of the app, I will do a user test in person with actual recipes and start to curate the main categories of recipes, and necessary features.</p>
       </div><!-- Close Yellow (container) -->
     </div><!-- Close Orange (section2) -->
   </main>
