@@ -145,6 +145,16 @@ nav>ul>li>a:active {
   opacity: 50%;
 }
 
+.x {
+  max-width: 40px;
+  padding: 7px 0;
+}
+
+.x:hover {
+  opacity: 50%;
+}
+
+
 main {
   padding-top: 15px;
 }
