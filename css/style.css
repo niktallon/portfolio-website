@@ -38,12 +38,14 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2.5em;
   text-transform: uppercase;
+  line-height: 2;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
+  line-height: 1.2;
 }
 
 h4 {
@@ -187,8 +189,10 @@ main {
 
 #contact h3 {
   margin: 0px 0px 5px 0px;
-  font-size: 4em;
+  font-size: 2.5em;
   font-weight: 300;
+  text-align: center;
+
 }
 
 .socialicon {
@@ -231,6 +235,22 @@ main {
   margin: 50px auto;
 }
 
+.iframe-container {
+  overflow: hidden;
+  padding-top: 125%; /* 16:9*/
+  position: relative;
+  text-align: center;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 a {
   color: #007fff;
   text-decoration: none;
@@ -262,7 +282,7 @@ a:active {
   border: 2px solid #191812;
   /* width of the border, type, color */
   transition-property: background-color;
-  transition-duration: 1s;
+  transition-duration: .3s;
 }
 
 .button:hover {
@@ -441,24 +461,14 @@ Large devices (1024px or larger)
       width: 40%;
     }
 
-    /*
-#work.col-lg-7 {
-  width: 60%;
-  float: left;
-  padding-right: 15px;
-  padding-left: 0;
-}
-
-#work.col-lg-5 {
-  width: 40%;
-  float: right;
-  padding-left: 15px;
-  padding-right: 0;
-}
-*/
     #project h2 {
       text-align: left;
-      font-size: 1em;
+      font-size: 1.8em;
+    }
+
+    #project h3 {
+      text-align: left;
+      font-size: 1;
     }
 
     .headshot {
@@ -478,9 +488,10 @@ Large devices (1024px or larger)
     }
 
     .fullwidthimage {
-      max-width: 60%;
+      max-width: 80%;
       margin: auto;
       display: block;
+
     }
   }
 
