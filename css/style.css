@@ -481,6 +481,10 @@ Large devices (1024px or larger)
       font-size: 1;
     }
 
+    #tile h3 {
+      margin: 120px 0px 0px 0px
+    }
+
     .headshot {
       max-width: 35%;
     }
